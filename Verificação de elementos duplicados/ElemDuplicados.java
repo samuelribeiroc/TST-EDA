@@ -7,26 +7,19 @@ class ElemDuplicados {
 
         String[] numeros = sc.nextLine().split(" ");
 
-        boolean verifica = false;
+        System.out.println(verifica(numeros));
+    }
 
-        int cont = 0;
+    static boolean verifica (String[] numeros) {
+        boolean retorno = false;
 
-        while (cont < numeros.length && verifica == false) {
-
-            int cont2 = 0;
-
-            while (cont2 < numeros.length && verifica == false) {
-                if (cont != cont2) {
-                    if (Integer.parseInt(numeros[cont]) == Integer.parseInt(numeros[cont2])) {
-                        verifica = true;
-                    }
+        for (int i = 0; i < numeros.length - 1; i++) {
+            for (int j = i+1; j < numeros.length; j++) {
+                if (Integer.parseInt(numeros[i]) == Integer.parseInt(numeros[j])) {
+                    retorno =  true;
                 }
-                cont2++;
             }
-
-            cont++;
         }
-
-        System.out.println(verifica);
+        return retorno;
     }
 }
