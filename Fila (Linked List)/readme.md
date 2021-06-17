@@ -5,13 +5,13 @@ Implemente uma fila baseada em uma linked list (duplamente encadeada). Seus algo
 <br>
 
 <h2>Entrada</h2>
-Seu programa deve ler da entrada uma série de operações (add, remove, element, search e print). A leitura de operações deve ser encerrada com a palavra ```end```
+Seu programa deve ler da entrada uma série de operações (add, remove, element, search e print). A leitura de operações deve ser encerrada com a palavra "end"
 
 <h2>Saída</h2>
-Seu programa deve imprimir o conteúdo da fila sempre que uma operação print for lida. Se a fila estiver vazia, imprima ``` empty ``` . <br>
-Seu programa deve imprimir o elemento inicial da fila quando ler a operação element. Se a lista estiver vazia, imprima ``` "empty" ```. <br>
-Se a fila estiver vazia e for lida a operação remove, imprima ```"empty"```. <br>
-A operação search retorna a primeira posição (iniciando de 0) em que o elemento aparece na fila. Caso a fila não contenha o elemento imprima ``` -1 ```.
+Seu programa deve imprimir o conteúdo da fila sempre que uma operação print for lida. Se a fila estiver vazia, imprima "empty". <br>
+Seu programa deve imprimir o elemento inicial da fila quando ler a operação element. Se a lista estiver vazia, imprima "empty". <br>
+Se a fila estiver vazia e for lida a operação remove, imprima "empty". <br>
+A operação search retorna a primeira posição (iniciando de 0) em que o elemento aparece na fila. Caso a fila não contenha o elemento imprima "-1".
 
 <h2>Exemplo de execução</h2>
 
